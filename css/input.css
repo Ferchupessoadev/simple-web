@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* :root { */
+/*   color-scheme: dark; */
+/* } */
+
+body {
+  box-sizing: border-box;
+  background: #111;
+  min-height: 100vh;
+    color: #fff;
+}
+
+.nav__li-a {
+  @apply text-red-800 px-4 py-2;
+}
+
+.nav__li:hover > .nav__li-a {
+    @apply bg-red-800 text-[#111]
+}
+
+
+.desactive {
+    display: none;
+}
