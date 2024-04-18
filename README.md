@@ -40,5 +40,5 @@ Nota: En este caso no hace falta porque ya esta en el fichero <a href="./css/inp
 ### Iniciar el proceso de compilación de la CLI de Tailwind.
 
 ```bash
-npx tailwindcss -i ./css/input.css -o ./src/style.css --watch
+npx tailwindcss -i ./css/input.css -o ./css/style.css --watch
 ```
