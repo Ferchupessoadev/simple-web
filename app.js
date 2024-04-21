@@ -9,7 +9,7 @@ $btnsLanguages.forEach($btnLanguages => {
 
 async function changeContent(language) {
     try {
-        const response = await fetch(`http://localhost:3000/lenguajes_docs/${language}.md`)
+        const response = await fetch(`https://ferchupessoadev.github.io/lenguajes_docs/${language}.md`)
         const content = await response.text()
         $boxContent.innerHTML = marked.parse(content)
     } catch (error) {
@@ -18,7 +18,7 @@ async function changeContent(language) {
     }
 }
 
-fetch(`http://localhost:3000/lenguajes_docs/HTML.md`)
+fetch(`https://ferchupessoadev.github.io/lenguajes_docs/HTML.md`)
     .then(content => content.text())
     .then(content => $boxContent.innerHTML = marked.parse(content))
 
