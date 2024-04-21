@@ -1,3 +1,4 @@
+import { marked } from "https://cdn.jsdelivr.net/npm/marked/lib/marked.esm.js";
 $btnsLanguages = document.querySelectorAll(".btn-languages")
 $boxContent = document.getElementById("box-content")
 
