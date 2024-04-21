@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Simple web</title>
     <link href="./css/style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/markdown.css" />
+    <!-- Mardkdown-->
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
     <!-- bootstrap icon -->
     <link
       rel="stylesheet"
@@ -32,7 +35,7 @@
         </li>
         <li class="nav__li">
           <a class="nav__li-a cursor-pointer text-sm md:text-md btn-languages"
-            >Css</a
+            >CSS</a
           >
         </li>
         <li class="nav__li">
@@ -55,7 +58,8 @@
       class="flex flex-col md:flex-row gap-4 h-max md:min-h-screen w-full px-4 my-3"
     >
       <article
-        class="w-full order-5 md:order-1 md:w-3/4 h-screen bg-[rgba(255_255_255_/_0.1)] rounded-lg"
+        class="overflow-y-auto w-full order-5 md:order-1 md:w-3/4 p-4 h-screen bg-[rgba(255_255_255_/_0.1)] rounded-lg"
+        id="box-content"
       >
         <!-- Aqui se insertara el contedido que venga del Js -->
       </article>
@@ -84,5 +88,6 @@
         <i class="bi bi-twitter-x text-4xl cursor-pointer"></i>
       </div>
     </footer>
+    <script src="./app.js"></script>
   </body>
 </html>
