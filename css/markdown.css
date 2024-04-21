@@ -10,7 +10,24 @@ pre {
   line-height: 1;
   overflow-x: hidden;
   background: #000;
+  overflow-x: auto;
 }
+
+pre::-webkit-scrollbar {
+  width: 12px;
+}
+
+pre::-webkit-scrollbar-track {
+  background: rgba(0 0 0 / .2);
+  border-radius: 10px;
+}
+
+pre::-webkit-scrollbar-thumb {
+  background: rgba(255 255 255 / .1);
+  border-radius: 10px;
+  border: 1px solid rgba(255 255 255 / .1);
+}
+
 
 @media print {
   *,
