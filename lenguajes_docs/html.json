@@ -1,9 +1,9 @@
 {
-    {
-        "lenguaje": "HTML",
-        "content": "
-        <h1>HTML</h1>
-        ...
-        "
-    },{}
+  "html": {
+    "lenguaje": "HTML",
+    "content": ""
+  },
+  "css": {},
+  "Js": {},
+  "PHP": {}
 }

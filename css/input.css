@@ -10,7 +10,7 @@ body {
   box-sizing: border-box;
   background: #111;
   min-height: 100vh;
-    color: #fff;
+  color: #fff;
 }
 
 .nav__li-a {
@@ -20,7 +20,6 @@ body {
 .nav__li:hover > .nav__li-a {
     @apply bg-red-800 text-[#111]
 }
-
 
 .desactive {
     display: none;

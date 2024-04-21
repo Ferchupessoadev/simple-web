@@ -11,26 +11,39 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
     />
   </head>
+
   <body>
-    <header class="h-36 w-full">
-      <img class="h-36 w-full object-cover" src="./banner.jpg" alt="" />
+    <header class="h-36 w-full flex justify-center items-center">
+      <img
+        class="h-36 w-full object-cover absolute"
+        src="./img/banner.jpg"
+        alt=""
+      />
+      <h1 class="z-40 text-white text-md md:text-2xl">
+        E.E.T N°2 "INDEPENDENCIA"
+      </h1>
     </header>
     <nav class="flex justify-between items-center h-10 px-4 bg-gray-900">
       <ul class="flex">
         <li class="nav__li">
-          <a class="nav__li-a cursor-pointer btn-languages">HTML</a>
+          <a class="nav__li-a cursor-pointer text-sm md:text-md btn-languages"
+            >HTML</a
+          >
         </li>
         <li class="nav__li">
-          <a class="nav__li-a cursor-pointer btn-languages">Css</a>
+          <a class="nav__li-a cursor-pointer text-sm md:text-md btn-languages"
+            >Css</a
+          >
         </li>
         <li class="nav__li">
-          <a class="nav__li-a cursor-pointer btn-languages">Js</a>
+          <a class="nav__li-a cursor-pointer text-sm md:text-md btn-languages"
+            >Js</a
+          >
         </li>
         <li class="nav__li">
-          <a class="nav__li-a cursor-pointer btn-languages">PHP</a>
-        </li>
-        <li class="nav__li">
-          <a class="nav__li-a cursor-pointer btn-languages">C++</a>
+          <a class="nav__li-a cursor-pointer text-sm md:text-md btn-languages"
+            >PHP</a
+          >
         </li>
       </ul>
       <div>
@@ -38,11 +51,17 @@
         <i class="bi bi-moon text-white text-xl cursor-pointer desactive"></i>
       </div>
     </nav>
-    <section class="flex gap-4 h-screen w-full px-4 my-3">
-      <article class="w-3/4 h-screen bg-[rgba(255_255_255_/_0.1)] rounded-lg">
+    <section
+      class="flex flex-col md:flex-row gap-4 h-max md:min-h-screen w-full px-4 my-3"
+    >
+      <article
+        class="w-full order-5 md:order-1 md:w-3/4 h-screen bg-[rgba(255_255_255_/_0.1)] rounded-lg"
+      >
         <!-- Aqui se insertara el contedido que venga del Js -->
       </article>
-      <aside class="w-1/4 h-screen bg-[rgba(255_255_255_/_0.1)] rounded-lg">
+      <aside
+        class="w-full order-1 md:order-5 md:w-1/4 h-screen bg-[rgba(255_255_255_/_0.1)] rounded-lg"
+      >
         <!-- Aqui se insertara el contedido que venga del Js -->
       </aside>
     </section>
@@ -54,15 +73,15 @@
       >
         <img
           class="w-24"
-          src="./icon-school.png"
+          src="./img/icon-school.png"
           alt="Logo de la escuela tecnica 2"
         />
         <h4>Tècnica Nº2 "Independencia"</h4>
       </div>
       <div class="flex gap-5">
-        <i class="bi bi-facebook text-4xl"></i>
-        <i class="bi bi-instagram text-4xl"></i>
-        <i class="bi bi-twitter-x text-4xl"></i>
+        <i class="bi bi-facebook text-4xl cursor-pointer"></i>
+        <i class="bi bi-instagram text-4xl cursor-pointer"></i>
+        <i class="bi bi-twitter-x text-4xl cursor-pointer"></i>
       </div>
     </footer>
   </body>
